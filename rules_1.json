@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {"type": "redirect", "redirect": {"url": "https://www.gutenberg.org/"}},
+        "condition": {"urlFilter": "somewebsite.com", "resourceTypes": ["main_frame"] }
+    },
+    {
+        "id": 2,
+        "priority": 1,
+        "action": {"type": "redirect", "redirect": {"url": "https://www.gutenberg.org/"}},
+        "condition": {"urlFilter": "anotherwebsite.com", "resourceTypes": ["main_frame"] }
+    }
+
+]

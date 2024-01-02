@@ -1,0 +1,20 @@
+{
+        "manifest_version": 3,
+        "name": "Minimal Manifest",
+        "version": "1.0.0",
+        "description": "Testing redirect away from Reddit",
+        "declarative_net_request" : {
+                "rule_resources" : [{
+                    "id": "ruleset_1",
+                    "enabled": true,
+                    "path": "rules_1.json"
+                }]
+            },
+            "permissions": [
+                "declarativeNetRequest",
+                "declarativeNetRequestFeedback"
+            ],
+            "host_permissions": [
+                "<all_urls>"
+            ]
+  }
